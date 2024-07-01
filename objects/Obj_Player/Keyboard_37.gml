@@ -1,0 +1,1 @@
+global.leftDown = true
