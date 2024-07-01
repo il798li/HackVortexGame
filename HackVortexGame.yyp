@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Fire","folderPath":"folders/Fire.yy","name":"Fire","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[],
@@ -20,11 +21,15 @@
   },
   "name":"HackVortexGame",
   "resources":[
+    {"id":{"name":"Obj_AnimatedMagma","path":"objects/Obj_AnimatedMagma/Obj_AnimatedMagma.yy",},},
+    {"id":{"name":"Obj_MagmaSpawner","path":"objects/Obj_MagmaSpawner/Obj_MagmaSpawner.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Spr_AnimatedMagma","path":"sprites/Spr_AnimatedMagma/Spr_AnimatedMagma.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
