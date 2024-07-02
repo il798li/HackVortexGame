@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Script_GenerateFireIsland",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_GenerateFireIsland",
+  "parent":{
+    "name":"Fire",
+    "path":"folders/Fire.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
