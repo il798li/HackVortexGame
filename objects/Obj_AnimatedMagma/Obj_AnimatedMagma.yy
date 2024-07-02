@@ -8,8 +8,8 @@
   "name":"Obj_AnimatedMagma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fire",
-    "path":"folders/Fire.yy",
+    "name":"Magma",
+    "path":"folders/Fire/Magma.yy",
   },
   "parentObjectId":null,
   "persistent":false,

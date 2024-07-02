@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Fire",
-    "path":"folders/Fire.yy",
+    "name":"Magma",
+    "path":"folders/Fire/Magma.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
