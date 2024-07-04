@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Script2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script2",
+  "parent":{
+    "name":"Cloud",
+    "path":"folders/Sky/Cloud.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

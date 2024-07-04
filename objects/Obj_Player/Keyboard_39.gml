@@ -1,1 +1,1 @@
-global.rightDown = true
+lobal.rightDown = true

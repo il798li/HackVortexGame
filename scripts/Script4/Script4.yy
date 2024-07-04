@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Script4",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script4",
+  "parent":{
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -2,14 +2,14 @@
   "$GMObject":"",
   "%Name":"Obj_MagmaSpawner",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Obj_MagmaSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Fire",
-    "path":"folders/Fire.yy",
+    "name":"[World] Fire",
+    "path":"folders/Worlds/[World] Fire.yy",
   },
   "parentObjectId":null,
   "persistent":false,
