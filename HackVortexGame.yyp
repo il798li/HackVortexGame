@@ -17,7 +17,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.6.0.157",
   },
   "name":"HackVortexGame",
   "resources":[
@@ -28,7 +28,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Spr_AnimatedMagma","path":"sprites/Spr_AnimatedMagma/Spr_AnimatedMagma.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
-    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"walkLeft","path":"sprites/walkLeft/walkLeft.yy",},},
+    {"id":{"name":"walkRight","path":"sprites/walkRight/walkRight.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
