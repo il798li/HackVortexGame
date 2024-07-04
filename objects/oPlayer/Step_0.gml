@@ -28,15 +28,26 @@ getControls();
 	
 //Y Movement
 	//Gravity
-	ySpd += grav;
+	if coyoteHangTimer > 0
+	{
+		//couonting the timer down for coyote hang time
+		coyoteHangTimer--
+	} else{
+		//Apply gravity to the player
+		ySpd += grav;
+		//we're no longer on the ground
+		setOnGround(false)
+	}
 	
 	//Reset or prepare jumping var
 	if onGround
 	{
 		jumpCount = 0
+		coyoteJumpTimer = coyoteJumpFrames
 	} else {
+		coyoteJumpTimer--
 		//if player is in air make sure they don't get extra jump
-		if jumpCount == 0
+		if jumpCount == 0 && coyoteJumpTimer <= 0
 		{
 			jumpCount = 1
 		}
@@ -54,6 +65,9 @@ getControls();
 		
 		//set jumphold timer
 		jumpHoldTimer = jumpHoldFrames
+		
+		//tell ourself we're no longer on the ground
+		setOnGround(false)
 	}
 	
 	if !jump_key
@@ -101,9 +115,7 @@ getControls();
 	//See whether on ground or not
 	if (ySpd >= 0 && place_meeting(x, y+1, oWall))
 	{
-		onGround = true
-	} else{
-		onGround = false
+		setOnGround(true)
 	}
 	
 	//Move
