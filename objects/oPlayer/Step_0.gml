@@ -48,7 +48,7 @@ getControls();
 			ySpd = -dashSpeed * sin(pi/4)
 			
 		} else {
-			if (!place_meeting(x+dashSpeed,y,oWall))
+			if (!place_meeting(x+dashSpeed * moveDir,y,oWall))
 			{
 				xSpd = moveDir * dashSpeed
 			}
