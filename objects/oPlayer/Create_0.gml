@@ -36,9 +36,13 @@ controlsSetup()
 	//Hang time
 	coyoteHangFrames = 2
 	coyoteHangTimer = 0
+	
 	//Jump buffer time
 	coyoteJumpFrames = 5
 	coyoteJumpTimer = 0
+	
+	//For wall jumping
+	jumpingOffWallCountdown = 0
 
 //Dashing
 dashSpeed = 6

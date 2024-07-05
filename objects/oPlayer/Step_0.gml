@@ -1,14 +1,19 @@
 //Inputs
 getControls();
 
+//Checks if player is on a wall. If wall is to left, value is 1
+onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
+
 //X movement
 	//Direction
 	moveDir = right_key - left_key
 
 	//Get xspd
-	if (!dashingToSide)
+	if (!dashingToSide && jumpingOffWallCountdown = 0)
 	{
 		xSpd = moveDir * moveSpd;
+	} else if (jumpingOffWallCountdown != 0){
+		jumpingOffWallCountdown--
 	}
 
 	//X collisions
@@ -29,15 +34,18 @@ getControls();
 	//Dashing
 	if(dash_key_pressed && hasDashed = false)
 	{
-		if (moveDir != 0 && keyboard_check( vk_up ))
+		if (moveDir != 0 && keyboard_check( vk_up ) && !place_meeting(x+dashSpeed * cos(pi/4), y, oWall))
 		{
 			xSpd = moveDir * dashSpeed * cos(pi/4)
 			dashingToSide = true
 			ySpd = -dashSpeed * sin(pi/4)
 			
 		} else {
-			xSpd = moveDir * dashSpeed
-		
+			if (!place_meeting(x+dashSpeed,y,oWall))
+			{
+				xSpd = moveDir * dashSpeed
+			}
+	
 			if (moveDir != 0)
 			{
 				dashingToSide = true
@@ -62,7 +70,12 @@ getControls();
 		coyoteHangTimer--
 	} else{
 		//Apply gravity to the player
-		ySpd += grav;
+		if onAWall != 0 && moveDir = -onAWall
+		{
+			ySpd = 1
+		} else {
+			ySpd += grav;
+		}
 		//we're no longer on the ground
 		setOnGround(false)
 	}
@@ -106,6 +119,13 @@ getControls();
 	//jump based on holding the button
 	if jumpHoldTimer > 0
 	{
+		
+		if (onAWall)
+		{
+			xSpd = onAWall * 10
+			jumpingOffWallCountdown = 10
+		}
+		
 		//constantly set yspd to be the jumping speed
 		ySpd = jspd
 		
