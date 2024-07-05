@@ -6,7 +6,10 @@ getControls();
 	moveDir = right_key - left_key
 
 	//Get xspd
-	xSpd = moveDir * moveSpd;
+	if (!dashingToSide)
+	{
+		xSpd = moveDir * moveSpd;
+	}
 
 	//X collisions
 	var _subPixel = .5;
@@ -21,6 +24,31 @@ getControls();
 	
 		//Setting xspd to 0 if collision
 		xSpd = 0;
+	}
+	
+	//Dashing
+	if(dash_key_pressed && hasDashed = false)
+	{
+		if (moveDir != 0 && keyboard_check( vk_up ))
+		{
+			xSpd = moveDir * dashSpeed * cos(pi/4)
+			dashingToSide = true
+			ySpd = -dashSpeed * sin(pi/4)
+			
+		} else {
+			xSpd = moveDir * dashSpeed
+		
+			if (moveDir != 0)
+			{
+				dashingToSide = true
+			}
+	
+			if (keyboard_check( vk_up )) {
+				ySpd = -dashSpeed
+			}
+		}
+	
+		hasDashed = true
 	}
 
 	//Move
@@ -120,3 +148,8 @@ getControls();
 	
 	//Move
 	y+=ySpd;
+
+
+
+
+

@@ -34,4 +34,7 @@ function getControls()
 		jumpKeyBuffered = 0
 	}
 	
+	//Dashing
+	dash_key_pressed = keyboard_check_pressed( ord("X") )
+	
 }

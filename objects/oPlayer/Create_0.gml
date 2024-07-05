@@ -5,6 +5,8 @@ function setOnGround(_val = true)
 	{
 		onGround = true
 		coyoteHangTimer = coyoteHangFrames
+		hasDashed = false
+		dashingToSide = false
 	} else {
 		onGround = false 
 		coyoteHangTimer = 0
@@ -37,3 +39,8 @@ controlsSetup()
 	//Jump buffer time
 	coyoteJumpFrames = 5
 	coyoteJumpTimer = 0
+
+//Dashing
+dashSpeed = 6
+hasDashed = false
+dashingToSide = false
