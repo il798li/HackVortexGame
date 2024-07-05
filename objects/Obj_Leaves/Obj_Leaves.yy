@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_MagmaSpawner",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Leaves",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_MagmaSpawner",
+  "name":"Obj_Leaves",
   "overriddenProperties":[],
   "parent":{
-    "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "name":"Leaves",
+    "path":"folders/Worlds/Leaves.yy",
   },
   "parentObjectId":null,
   "persistent":false,

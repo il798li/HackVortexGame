@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_MagmaSpawner",
+  "%Name":"Obj_Ladder",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_MagmaSpawner",
+  "name":"Obj_Ladder",
   "overriddenProperties":[],
   "parent":{
-    "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "name":"Ladder",
+    "path":"folders/Worlds/Ladder.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Ladder",
+    "path":"sprites/Spr_Ladder/Spr_Ladder.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

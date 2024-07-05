@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_MagmaSpawner",
+  "%Name":"Obj_Door",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_MagmaSpawner",
+  "name":"Obj_Door",
   "overriddenProperties":[],
   "parent":{
-    "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "name":"Door",
+    "path":"folders/Worlds/Door.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Door",
+    "path":"sprites/Spr_Door/Spr_Door.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

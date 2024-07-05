@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_MagmaSpawner",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Sky",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_MagmaSpawner",
+  "name":"Obj_Sky",
   "overriddenProperties":[],
   "parent":{
-    "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "name":"Sky",
+    "path":"folders/Worlds/Sky/Sky.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Sky",
+    "path":"sprites/Spr_Sky/Spr_Sky.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
