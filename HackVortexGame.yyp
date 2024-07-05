@@ -42,10 +42,14 @@
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
     {"id":{"name":"Obj_Sky","path":"objects/Obj_Sky/Obj_Sky.yy",},},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"Rm_Fire_Save","path":"rooms/Rm_Fire_Save/Rm_Fire_Save.yy",},},
     {"id":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
+    {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},},
     {"id":{"name":"Script_GenerateFireIsland","path":"scripts/Script_GenerateFireIsland/Script_GenerateFireIsland.yy",},},
     {"id":{"name":"Script_SpawnCloud","path":"scripts/Script_SpawnCloud/Script_SpawnCloud.yy",},},
     {"id":{"name":"Script_SpawnSky","path":"scripts/Script_SpawnSky/Script_SpawnSky.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"Spr_AnimatedMagma","path":"sprites/Spr_AnimatedMagma/Spr_AnimatedMagma.yy",},},
     {"id":{"name":"Spr_Cloud","path":"sprites/Spr_Cloud/Spr_Cloud.yy",},},
     {"id":{"name":"Spr_Door","path":"sprites/Spr_Door/Spr_Door.yy",},},
@@ -61,6 +65,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
+    {"roomId":{"name":"Rm_Fire_Save","path":"rooms/Rm_Fire_Save/Rm_Fire_Save.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

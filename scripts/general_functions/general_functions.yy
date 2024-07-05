@@ -1,9 +1,9 @@
 {
-  "$GMScript":"",
-  "%Name":"Script4",
+  "$GMScript":"v1",
+  "%Name":"general_functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script4",
+  "name":"general_functions",
   "parent":{
     "name":"HackVortexGame",
     "path":"HackVortexGame.yyp",
