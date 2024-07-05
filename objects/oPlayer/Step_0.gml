@@ -25,11 +25,11 @@ getControls();
 
 	//X collisions
 	var _subPixel = .5;
-	if place_meeting(x+xSpd, y, oWall)
+	if place_meeting(x+xSpd, y, Obj_Platform)
 	{
 		//Moving close to wall precisely
 		var _pixelCheck = _subPixel * sign(xSpd);
-		while !place_meeting(x+_pixelCheck, y, oWall)
+		while !place_meeting(x+_pixelCheck, y, Obj_Platform)
 		{
 			x += _pixelCheck
 		}
@@ -39,16 +39,18 @@ getControls();
 	}
 	
 	//Dashing
-	if(dash_key_pressed && hasDashed = false)
+	if (dash_key_pressed
+    &&
+    hasDashed == false)
 	{
-		if (moveDir != 0 && keyboard_check( vk_up ) && !place_meeting(x+dashSpeed * moveDir * cos(pi/4), y, oWall))
+		if (moveDir != 0 && keyboard_check( vk_up ) && !place_meeting(x+dashSpeed * moveDir * cos(pi/4), y, Obj_Platform))
 		{
 			xSpd = moveDir * dashSpeed * cos(pi/4)
 			dashingToSide = true
 			ySpd = -dashSpeed * sin(pi/4)
 			
 		} else {
-			if (!place_meeting(x+dashSpeed * moveDir,y,oWall))
+			if (!place_meeting(x+dashSpeed * moveDir,y,Obj_Platform))
 			{
 				xSpd = moveDir * dashSpeed
 			}
@@ -146,11 +148,11 @@ getControls();
 	
 	//Y Collision
 	var _subPixel = .5;
-	if place_meeting(x, y + ySpd, oWall)
+	if place_meeting(x, y + ySpd, Obj_Platform)
 	{
 		//Moving close to floor precisely
 		var _pixelCheck = _subPixel * sign(ySpd);
-		while !place_meeting(x, y+_pixelCheck, oWall)
+		while !place_meeting(x, y+_pixelCheck, Obj_Platform)
 		{
 			y += _pixelCheck
 		}
@@ -166,7 +168,7 @@ getControls();
 	}
 	
 	//See whether on ground or not
-	if (ySpd >= 0 && place_meeting(x, y+1, oWall))
+	if (ySpd >= 0 && place_meeting(x, y+1, Obj_Platform))
 	{
 		setOnGround(true)
 	}
