@@ -9,8 +9,8 @@
   "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"HackVortexGame",
-    "path":"HackVortexGame.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
