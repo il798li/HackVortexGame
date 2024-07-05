@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Worlds","folderPath":"folders/Worlds.yy","name":"Worlds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"[World] Fire","folderPath":"folders/Worlds/[World] Fire.yy","name":"[World] Fire","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -61,6 +62,8 @@
     {"id":{"name":"Spr_Sky","path":"sprites/Spr_Sky/Spr_Sky.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
+    {"id":{"name":"walkLeft","path":"sprites/walkLeft/walkLeft.yy",},},
+    {"id":{"name":"walkRight","path":"sprites/walkRight/walkRight.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
