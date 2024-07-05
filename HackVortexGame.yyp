@@ -50,6 +50,7 @@
     {"id":{"name":"Script_SpawnCloud","path":"scripts/Script_SpawnCloud/Script_SpawnCloud.yy",},},
     {"id":{"name":"Script_SpawnSky","path":"scripts/Script_SpawnSky/Script_SpawnSky.yy",},},
     {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},},
+    {"id":{"name":"Dash","path":"sprites/Dash/Dash.yy",},},
     {"id":{"name":"Spr_AnimatedMagma","path":"sprites/Spr_AnimatedMagma/Spr_AnimatedMagma.yy",},},
     {"id":{"name":"Spr_Cloud","path":"sprites/Spr_Cloud/Spr_Cloud.yy",},},
     {"id":{"name":"Spr_Door","path":"sprites/Spr_Door/Spr_Door.yy",},},
