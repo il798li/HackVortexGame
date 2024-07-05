@@ -48,3 +48,4 @@ controlsSetup()
 dashSpeed = 6
 hasDashed = false
 dashingToSide = false
+dashCountdown = 0

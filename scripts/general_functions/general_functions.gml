@@ -37,4 +37,7 @@ function getControls()
 	//Dashing
 	dash_key_pressed = keyboard_check_pressed( ord("X") )
 	
+	//Checks if player is on a wall. If wall is to left, value is 1
+	onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
+	
 }

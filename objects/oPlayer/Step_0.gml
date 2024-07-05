@@ -1,9 +1,6 @@
 //Inputs
 getControls();
 
-//Checks if player is on a wall. If wall is to left, value is 1
-onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
-
 //X movement
 	//Direction
 	moveDir = right_key - left_key
@@ -14,6 +11,16 @@ onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
 		xSpd = moveDir * moveSpd;
 	} else if (jumpingOffWallCountdown != 0){
 		jumpingOffWallCountdown--
+	}
+	
+	if (dashCountdown != 0)
+	{
+		dashCountdown--
+	}
+	
+	if(dashCountdown = 0)
+	{
+		dashingToSide = false
 	}
 
 	//X collisions
@@ -34,7 +41,7 @@ onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
 	//Dashing
 	if(dash_key_pressed && hasDashed = false)
 	{
-		if (moveDir != 0 && keyboard_check( vk_up ) && !place_meeting(x+dashSpeed * cos(pi/4), y, oWall))
+		if (moveDir != 0 && keyboard_check( vk_up ) && !place_meeting(x+dashSpeed * moveDir * cos(pi/4), y, oWall))
 		{
 			xSpd = moveDir * dashSpeed * cos(pi/4)
 			dashingToSide = true
@@ -57,6 +64,7 @@ onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
 		}
 	
 		hasDashed = true
+		dashCountdown = 30
 	}
 
 	//Move
@@ -78,6 +86,10 @@ onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
 		}
 		//we're no longer on the ground
 		setOnGround(false)
+	}
+	if (onAWall != 0)
+	{
+		jumpCount = 0
 	}
 	
 	//Reset or prepare jumping var
@@ -118,14 +130,7 @@ onAWall = place_meeting(x-5,y,oWall) - place_meeting(x+5,y,oWall)
 	
 	//jump based on holding the button
 	if jumpHoldTimer > 0
-	{
-		
-		if (onAWall)
-		{
-			xSpd = onAWall * 10
-			jumpingOffWallCountdown = 10
-		}
-		
+	{		
 		//constantly set yspd to be the jumping speed
 		ySpd = jspd
 		
