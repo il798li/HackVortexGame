@@ -6,21 +6,65 @@ getControls();
 	moveDir = right_key - left_key
 
 	//Get xspd
-	xSpd = moveDir * moveSpd;
+	if (!dashingToSide && jumpingOffWallCountdown = 0)
+	{
+		xSpd = moveDir * moveSpd;
+	} else if (jumpingOffWallCountdown != 0){
+		jumpingOffWallCountdown--
+	}
+	
+	if (dashCountdown != 0)
+	{
+		dashCountdown--
+	}
+	
+	if(dashCountdown = 0)
+	{
+		dashingToSide = false
+	}
 
 	//X collisions
 	var _subPixel = .5;
-	if place_meeting(x+xSpd, y, Obj_Platform)
+	if place_meeting(x+xSpd, y, oWall)
 	{
 		//Moving close to wall precisely
 		var _pixelCheck = _subPixel * sign(xSpd);
-		while !place_meeting(x+_pixelCheck, y, Obj_Platform)
+		while !place_meeting(x+_pixelCheck, y, oWall)
 		{
 			x += _pixelCheck
 		}
 	
 		//Setting xspd to 0 if collision
 		xSpd = 0;
+	}
+	
+	//Dashing
+	if(dash_key_pressed && hasDashed = false)
+	{
+		if (moveDir != 0 && keyboard_check( vk_up ) && !place_meeting(x+dashSpeed * moveDir * cos(pi/4), y, oWall))
+		{
+			xSpd = moveDir * dashSpeed * cos(pi/4)
+			dashingToSide = true
+			ySpd = -dashSpeed * sin(pi/4)
+			
+		} else {
+			if (!place_meeting(x+dashSpeed * moveDir,y,oWall))
+			{
+				xSpd = moveDir * dashSpeed
+			}
+	
+			if (moveDir != 0)
+			{
+				dashingToSide = true
+			}
+	
+			if (keyboard_check( vk_up )) {
+				ySpd = -dashSpeed
+			}
+		}
+	
+		hasDashed = true
+		dashCountdown = 30
 	}
 
 	//Move
@@ -34,9 +78,18 @@ getControls();
 		coyoteHangTimer--
 	} else{
 		//Apply gravity to the player
-		ySpd += grav;
+		if onAWall != 0 && moveDir = -onAWall
+		{
+			ySpd = 1
+		} else {
+			ySpd += grav;
+		}
 		//we're no longer on the ground
 		setOnGround(false)
+	}
+	if (onAWall != 0)
+	{
+		jumpCount = 0
 	}
 	
 	//Reset or prepare jumping var
@@ -77,7 +130,7 @@ getControls();
 	
 	//jump based on holding the button
 	if jumpHoldTimer > 0
-	{
+	{		
 		//constantly set yspd to be the jumping speed
 		ySpd = jspd
 		
@@ -93,11 +146,11 @@ getControls();
 	
 	//Y Collision
 	var _subPixel = .5;
-	if place_meeting(x, y + ySpd, Obj_Platform)
+	if place_meeting(x, y + ySpd, oWall)
 	{
 		//Moving close to floor precisely
 		var _pixelCheck = _subPixel * sign(ySpd);
-		while !place_meeting(x, y+_pixelCheck, Obj_Platform)
+		while !place_meeting(x, y+_pixelCheck, oWall)
 		{
 			y += _pixelCheck
 		}
@@ -113,10 +166,15 @@ getControls();
 	}
 	
 	//See whether on ground or not
-	if (ySpd >= 0 && place_meeting(x, y+1, Obj_Platform))
+	if (ySpd >= 0 && place_meeting(x, y+1, oWall))
 	{
 		setOnGround(true)
 	}
 	
 	//Move
 	y+=ySpd;
+
+
+
+
+
