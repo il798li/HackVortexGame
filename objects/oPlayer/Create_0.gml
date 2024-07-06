@@ -56,4 +56,7 @@ hasDashed = false
 dashingToSide = false
 dashCountdown = 0
 isDashing = false
-dashTime = 
+dashTime = 0
+dashDirection = 0
+
+playerHealth = 100

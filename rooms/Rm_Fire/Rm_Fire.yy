@@ -2379,6 +2379,7 @@
     {"name":"inst_484C0E2B","path":"rooms/Rm_Fire/Rm_Fire.yy",},
     {"name":"inst_5F270C66","path":"rooms/Rm_Fire/Rm_Fire.yy",},
     {"name":"inst_56C496F2","path":"rooms/Rm_Fire/Rm_Fire.yy",},
+    {"name":"inst_61CAE974","path":"rooms/Rm_Fire/Rm_Fire.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -4756,6 +4757,7 @@
         {"$GMRInstance":"v1","%Name":"inst_484C0E2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_484C0E2B","objectId":{"name":"Obj_AnimatedMagma","path":"objects/Obj_AnimatedMagma/Obj_AnimatedMagma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":1312.0,},
         {"$GMRInstance":"v1","%Name":"inst_5F270C66","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F270C66","objectId":{"name":"Obj_AnimatedMagma","path":"objects/Obj_AnimatedMagma/Obj_AnimatedMagma.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1728.0,"y":1344.0,},
         {"$GMRInstance":"v1","%Name":"inst_56C496F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_56C496F2","objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":544.0,"y":282.0,},
+        {"$GMRInstance":"v1","%Name":"inst_61CAE974","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_61CAE974","objectId":{"name":"oFireBoss","path":"objects/oFireBoss/oFireBoss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.105263166,"scaleY":0.10526316,"x":576.0,"y":448.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
