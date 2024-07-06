@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"HackVortexGame",
-    "path":"HackVortexGame.yyp",
+    "name":"Player",
+    "path":"folders/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
