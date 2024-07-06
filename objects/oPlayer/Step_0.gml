@@ -176,6 +176,39 @@ getControls();
 	//Move
 	y+=ySpd;
 
+//Sprite/Animation control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
