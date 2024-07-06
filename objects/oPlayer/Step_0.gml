@@ -4,6 +4,12 @@ getControls();
 //X movement
 	//Direction
 	moveDir = right_key - left_key
+	
+	//Get face
+	if (moveDir != 0)
+	{
+		face = moveDir
+	}
 
 	//Get xspd
 	if (!dashingToSide && jumpingOffWallCountdown = 0)
@@ -177,9 +183,29 @@ getControls();
 	y+=ySpd;
 
 //Sprite/Animation control
+	//Walking
+	if(abs(xSpd) > 0)
+	{
+		sprite_index = walkSpr
+	}
 
-
-
+	//If not moving
+	if(xSpd == 0)
+	{
+		sprite_index = idleSpr
+	}	
+	
+	//Dashing Sprite
+	dashDirection = arctan(ySpd/xSpd)
+	if (hasDashed)
+	{
+		sprite_index = dashSpr
+		image_angle = dashDirection
+	}
+	
+	//Set collision mask
+	mask_index = idleSpr
+	
 
 
 

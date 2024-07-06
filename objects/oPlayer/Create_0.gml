@@ -16,7 +16,13 @@ function setOnGround(_val = true)
 //Control Setup
 controlsSetup()
 
+//Sprites
+	idleSpr = sIdle
+	walkSpr = sWalkRight
+	dashSpr = sDash
+
 //Moving
+	face = 1
 	moveDir = 0;
 	moveSpd = 3;
 	xSpd = 0;
@@ -45,7 +51,9 @@ controlsSetup()
 	jumpingOffWallCountdown = 0
 
 //Dashing
-dashSpeed = 6
+dashSpeed = 10
 hasDashed = false
 dashingToSide = false
 dashCountdown = 0
+isDashing = false
+dashTime = 
