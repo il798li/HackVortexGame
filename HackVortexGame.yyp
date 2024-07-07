@@ -58,6 +58,7 @@
     {"id":{"name":"Script5","path":"scripts/Script5/Script5.yy",},},
     {"id":{"name":"snd_dash","path":"sounds/snd_dash/snd_dash.yy",},},
     {"id":{"name":"snd_fire","path":"sounds/snd_fire/snd_fire.yy",},},
+    {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},},
     {"id":{"name":"snd_walking","path":"sounds/snd_walking/snd_walking.yy",},},
     {"id":{"name":"sControlledPlatform","path":"sprites/sControlledPlatform/sControlledPlatform.yy",},},
     {"id":{"name":"sDash","path":"sprites/sDash/sDash.yy",},},
