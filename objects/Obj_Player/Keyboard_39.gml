@@ -1,1 +1,0 @@
-lobal.rightDown = true

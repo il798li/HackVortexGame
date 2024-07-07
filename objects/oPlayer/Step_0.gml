@@ -8,6 +8,15 @@ moveDir = right_key - left_key;
 // Get face direction
 if (moveDir != 0) {
     face = moveDir;
+} 
+if(xSpd != 0 && onGround)
+{
+	if(!audio_is_playing(snd_walking))
+	{
+		audio_play_sound(snd_walking,0,0)
+	}
+} else {
+	audio_stop_sound(snd_walking)
 }
 
 // Get xSpd
@@ -51,7 +60,8 @@ if place_meeting(x + xSpd, y, oMovablePlatform) {
 }
 
 // Dashing
-if (dash_key_pressed && !hasDashed && moveDir != 0) {
+if (dash_key_pressed && !hasDashed && moveDir != 0 && psychi > 0) {
+	audio_play_sound(snd_dash,0,0)
     if (moveDir != 0 && keyboard_check(vk_up) && !place_meeting(x + dashSpeed * moveDir * cos(pi / 4), y, Obj_Platform)) {
         xSpd = moveDir * dashSpeed * cos(pi / 4);
         dashingToSide = true;
@@ -67,6 +77,7 @@ if (dash_key_pressed && !hasDashed && moveDir != 0) {
     hasDashed = true;
     dashCountdown = 30;
     isDashing = true;
+	psychi -= .2
 }
 
 if (onAWall) {
@@ -182,6 +193,12 @@ if (ySpd >= 0 && place_meeting(x, y + 1, oMovablePlatform)) {
 // Move Y
 y += ySpd;
 
+if(xSpd = 0 && ySpd = 0 && psychi < psychiCap)
+{
+	psychi += .001
+	sprite_index = sPlayerCharging
+}
+
 if (playerHealth < 0) {
 	instance_destroy()
 }
@@ -203,6 +220,12 @@ image_angle = 0;
 if (isDashing) {
     sprite_index = dashSpr;
     image_angle = dashDirection;
+}
+
+if(xSpd = 0 && ySpd = 0 && psychi < psychiCap && !oMovablePlatform.isBeingMoved)
+{
+	psychi += .01
+	sprite_index = sPlayerCharging
 }
 
 // Set collision mask

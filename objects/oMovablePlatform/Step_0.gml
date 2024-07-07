@@ -1,3 +1,4 @@
+if(instance_exists(oPlayer)){
 if((position_meeting(mouse_x,mouse_y,oMovablePlatform) || isBeingMoved) && oPlayer.psychi > 5)
 {
 	sprite_index = sControlledPlatform
@@ -83,3 +84,4 @@ if place_meeting(x + xSpd, y, oMovablePlatform) {
 
 x += xSpd
 y += ySpd
+}

@@ -9,8 +9,8 @@
   "name":"oFireBoss",
   "overriddenProperties":[],
   "parent":{
-    "name":"HackVortexGame",
-    "path":"HackVortexGame.yyp",
+    "name":"[World] Fire",
+    "path":"folders/Worlds/[World] Fire.yy",
   },
   "parentObjectId":null,
   "persistent":false,

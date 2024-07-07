@@ -39,6 +39,7 @@ if(instance_exists(oPlayer))
 		        bossHealth -= 10;
 		    } else {
 		        oPlayer.playerHealth -= 1;
+				audio_play_sound(snd_fire,0,0)
 		    }
 		}
 
