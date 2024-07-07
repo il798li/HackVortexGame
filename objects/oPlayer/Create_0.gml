@@ -60,3 +60,6 @@ dashTime = 0
 dashDirection = 0
 
 playerHealth = 100
+
+//Psychi
+psychi = 10

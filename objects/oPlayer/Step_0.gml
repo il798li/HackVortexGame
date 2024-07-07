@@ -36,6 +36,18 @@ if place_meeting(x + xSpd, y, Obj_Platform) {
     }
     // Setting xSpd to 0 if collision
     xSpd = 0;
+	onAWall =true
+}
+
+if place_meeting(x + xSpd, y, oMovablePlatform) {
+    // Moving close to wall precisely
+    var _pixelCheck = _subPixel * sign(xSpd);
+    while (!place_meeting(x + _pixelCheck, y, oMovablePlatform)) {
+        x += _pixelCheck;
+    }
+    // Setting xSpd to 0 if collision
+    xSpd = 0;
+	onAWall = true
 }
 
 // Dashing
@@ -144,8 +156,26 @@ if place_meeting(x, y + ySpd, Obj_Platform) {
     ySpd = 0;
 }
 
+if place_meeting(x, y + ySpd, oMovablePlatform) {
+    // Moving close to floor precisely
+    var _pixelCheck = _subPixel * sign(ySpd);
+    while (!place_meeting(x, y + _pixelCheck, oMovablePlatform)) {
+        y += _pixelCheck;
+    }
+    // Hit ceiling
+    if (ySpd < 0) {
+        jumpHoldTimer = 0;
+    }
+    // Setting ySpd to 0 if collision
+    ySpd = 0;
+}
+
 // Check if on ground
 if (ySpd >= 0 && place_meeting(x, y + 1, Obj_Platform)) {
+    setOnGround(true);
+}
+
+if (ySpd >= 0 && place_meeting(x, y + 1, oMovablePlatform)) {
     setOnGround(true);
 }
 
@@ -153,7 +183,7 @@ if (ySpd >= 0 && place_meeting(x, y + 1, Obj_Platform)) {
 y += ySpd;
 
 if (playerHealth < 0) {
-	oPlayer.visible = false
+	instance_destroy()
 }
 
 // Sprite/Animation control
