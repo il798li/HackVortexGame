@@ -2,36 +2,31 @@
   "$GMSprite":"",
   "%Name":"sForestBlob",
   "bboxMode":0,
-  "bbox_bottom":47,
-  "bbox_left":4,
-  "bbox_right":59,
-  "bbox_top":12,
+  "bbox_bottom":23,
+  "bbox_left":2,
+  "bbox_right":29,
+  "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0eddec7-7873-4d48-b29b-034067f63053","name":"e0eddec7-7873-4d48-b29b-034067f63053","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dfc0e0b1-bc08-4e3a-9302-728e707b53b0","name":"dfc0e0b1-bc08-4e3a-9302-728e707b53b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"37c31ca7-85ac-4cec-8ddd-95f8dda3b83f","blendMode":0,"displayName":"default","isLocked":false,"name":"37c31ca7-85ac-4cec-8ddd-95f8dda3b83f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c1f54caf-6271-4fa3-ac83-8eebe6dacd0f","blendMode":0,"displayName":"default","isLocked":false,"name":"c1f54caf-6271-4fa3-ac83-8eebe6dacd0f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sForestBlob",
   "nineSlice":null,
   "origin":0,
   "parent":{
-<<<<<<< Updated upstream:sprites/Sprite43/Sprite43.yy
-    "name":"[World] Forest",
-    "path":"folders/Worlds/[World] Forest.yy",
-=======
     "name":"NPC's",
     "path":"folders/NPC's.yy",
->>>>>>> Stashed changes:sprites/sForestBlob/sForestBlob.yy
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -74,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e0eddec7-7873-4d48-b29b-034067f63053","path":"sprites/sForestBlob/sForestBlob.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d7a5e052-9dd8-4b14-9de8-a3623faff7f0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dfc0e0b1-bc08-4e3a-9302-728e707b53b0","path":"sprites/sForestBlob/sForestBlob.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"12c2ec2b-e1d4-4c8a-916d-5e9139bfa3d5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -91,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":32,
 }

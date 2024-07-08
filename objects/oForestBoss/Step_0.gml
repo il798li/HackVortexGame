@@ -1,6 +1,6 @@
 if(instance_exists(oPlayer))
 {
-	if (oPlayer.x < 1980 && oPlayer.x > 1950 && oPlayer.y < 930 && oPlayer.y > 860)
+	if (oPlayer.x < 2540 && oPlayer.x > 2460 && oPlayer.y < 960 && oPlayer.y > 924)
 	{
 		bossActive = true;
 	}
