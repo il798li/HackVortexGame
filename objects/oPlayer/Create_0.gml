@@ -1,4 +1,7 @@
 //Custom functions for player
+
+window_set_fullscreen(true)
+
 function setOnGround(_val = true)
 {
 	if _val == true
