@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oForestBoss",
+  "%Name":"oMovablePlatform_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oForestBoss",
+  "name":"oMovablePlatform_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"[World] Forest",
-    "path":"folders/Worlds/[World] Forest.yy",
+    "name":"Platform",
+    "path":"folders/Worlds/Platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite43",
-    "path":"sprites/Sprite43/Sprite43.yy",
+    "name":"Spr_Platform_1",
+    "path":"sprites/Spr_Platform_1/Spr_Platform_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
