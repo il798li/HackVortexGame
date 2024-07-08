@@ -1,4 +1,3 @@
-@ -1,134 +1,130 @@
 {
   "$GMProject":"",
   "%Name":"HackVortexGame",
@@ -53,13 +52,13 @@
     {"id":{"name":"Obj_Platform","path":"objects/Obj_Platform/Obj_Platform.yy",},},
     {"id":{"name":"Obj_Sky","path":"objects/Obj_Sky/Obj_Sky.yy",},},
     {"id":{"name":"oFireBoss","path":"objects/oFireBoss/oFireBoss.yy",},},
-    {"id":{"name":"oForestBoss","path":"objects/oForestBoss/oForestBoss.yy",},},
     {"id":{"name":"oForestBlob1","path":"objects/oForestBlob1/oForestBlob1.yy",},},
     {"id":{"name":"oForestBlob2","path":"objects/oForestBlob2/oForestBlob2.yy",},},
     {"id":{"name":"oForestBlob3","path":"objects/oForestBlob3/oForestBlob3.yy",},},
     {"id":{"name":"oForestBlob4","path":"objects/oForestBlob4/oForestBlob4.yy",},},
     {"id":{"name":"oForestBlob5","path":"objects/oForestBlob5/oForestBlob5.yy",},},
     {"id":{"name":"oForestBlob6","path":"objects/oForestBlob6/oForestBlob6.yy",},},
+    {"id":{"name":"oForestBoss","path":"objects/oForestBoss/oForestBoss.yy",},},
     {"id":{"name":"oForestPriest","path":"objects/oForestPriest/oForestPriest.yy",},},
     {"id":{"name":"oIceBoss","path":"objects/oIceBoss/oIceBoss.yy",},},
     {"id":{"name":"oMovablePlatform","path":"objects/oMovablePlatform/oMovablePlatform.yy",},},
@@ -68,7 +67,6 @@
     {"id":{"name":"Stick","path":"objects/Stick/Stick.yy",},},
     {"id":{"name":"DevRoom","path":"rooms/DevRoom/DevRoom.yy",},},
     {"id":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
-    {"id":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
     {"id":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
     {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},},
     {"id":{"name":"Script_GenerateFireIsland","path":"scripts/Script_GenerateFireIsland/Script_GenerateFireIsland.yy",},},
@@ -119,7 +117,6 @@
     {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},
     {"id":{"name":"Sprite41","path":"sprites/Sprite41/Sprite41.yy",},},
     {"id":{"name":"Sprite42","path":"sprites/Sprite42/Sprite42.yy",},},
-    {"id":{"name":"Sprite43","path":"sprites/Sprite43/Sprite43.yy",},},
     {"id":{"name":"Sprite45","path":"sprites/Sprite45/Sprite45.yy",},},
     {"id":{"name":"Sprite46","path":"sprites/Sprite46/Sprite46.yy",},},
     {"id":{"name":"Sprite47","path":"sprites/Sprite47/Sprite47.yy",},},
@@ -133,7 +130,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
     {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
     {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
     {"roomId":{"name":"DevRoom","path":"rooms/DevRoom/DevRoom.yy",},},
