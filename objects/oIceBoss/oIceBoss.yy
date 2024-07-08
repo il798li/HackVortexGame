@@ -9,8 +9,8 @@
   "name":"oIceBoss",
   "overriddenProperties":[],
   "parent":{
-    "name":"HackVortexGame",
-    "path":"HackVortexGame.yyp",
+    "name":"[World] Water",
+    "path":"folders/Worlds/[World] Water.yy",
   },
   "parentObjectId":null,
   "persistent":false,

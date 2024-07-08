@@ -112,9 +112,9 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
     {"roomId":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
     {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
+    {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
