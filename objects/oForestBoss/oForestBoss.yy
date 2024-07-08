@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object16",
+  "%Name":"oForestBoss",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object16",
+  "name":"oForestBoss",
   "overriddenProperties":[],
   "parent":{
     "name":"HackVortexGame",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite41",
-    "path":"sprites/Sprite41/Sprite41.yy",
+    "name":"Sprite43",
+    "path":"sprites/Sprite43/Sprite43.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,17 +1,16 @@
-var _timer = 100;
-
 if(instance_exists(oPlayer))
 {
-	if (oPlayer.x < 150 && oPlayer.x > 50 && oPlayer.y < 600 && oPlayer.y > 550)
+	if (oPlayer.x < 1980 && oPlayer.x > 1950 && oPlayer.y < 930 && oPlayer.y > 860)
 	{
-		bossActive = true	
+		bossActive = true;
 	}
 	if(bossActive) {
-
-
 		if(instance_exists(oPlayer)) {
 			if(timer <= 0) {
-				instance_create_layer(x + random_range(0, 150) - 75, y + random_range(0, 150) - 75, layer, Object17);
+				for(var i = 0; i < 20; i++) {
+				}
+				instance_create_layer(posX, posY, layer, StickDown);
+				timer = 100;
 			} else {
 				timer -= 1;
 			}
