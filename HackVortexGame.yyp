@@ -66,6 +66,7 @@
     {"id":{"name":"oMovablePlatform","path":"objects/oMovablePlatform/oMovablePlatform.yy",},},
     {"id":{"name":"oPlayer_1","path":"objects/oPlayer_1/oPlayer_1.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
+    {"id":{"name":"oPortal","path":"objects/oPortal/oPortal.yy",},},
     {"id":{"name":"oStickDown","path":"objects/oStickDown/oStickDown.yy",},},
     {"id":{"name":"Stick","path":"objects/Stick/Stick.yy",},},
     {"id":{"name":"DevRoom","path":"rooms/DevRoom/DevRoom.yy",},},
