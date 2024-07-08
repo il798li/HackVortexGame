@@ -1,1 +1,0 @@
-global.leftDown = true

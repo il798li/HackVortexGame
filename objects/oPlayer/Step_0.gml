@@ -8,6 +8,15 @@ moveDir = right_key - left_key;
 // Get face direction
 if (moveDir != 0) {
     face = moveDir;
+} 
+if(xSpd != 0 && onGround)
+{
+	if(!audio_is_playing(snd_walking))
+	{
+		audio_play_sound(snd_walking,0,0)
+	}
+} else {
+	audio_stop_sound(snd_walking)
 }
 
 // Get xSpd
@@ -51,13 +60,14 @@ if place_meeting(x + xSpd, y, oMovablePlatform) {
 }
 
 // Dashing
-if (dash_key_pressed && !hasDashed && moveDir != 0) {
-    if (moveDir != 0 && keyboard_check(vk_up) && !place_meeting(x + dashSpeed * moveDir * cos(pi / 4), y, Obj_Platform)) {
+if (dash_key_pressed && !hasDashed && moveDir != 0 && psychi > 0) {
+	audio_play_sound(snd_dash,0,0)
+    if (moveDir != 0 && keyboard_check(vk_up) && !place_meeting(x + dashSpeed * moveDir * cos(pi / 4), y, Obj_Platform) && !place_meeting(x + dashSpeed * moveDir * cos(pi / 4), y, oMovablePlatform)) {
         xSpd = moveDir * dashSpeed * cos(pi / 4);
         dashingToSide = true;
         ySpd = -dashSpeed * sin(pi / 4);
     } else {
-        if (!place_meeting(x + dashSpeed * moveDir, y, Obj_Platform)) {
+        if (!place_meeting(x + dashSpeed * moveDir, y, Obj_Platform) && !place_meeting(x + dashSpeed * moveDir, y, oMovablePlatform)) {
             xSpd = moveDir * dashSpeed;
         }
         if (moveDir != 0) {
@@ -67,6 +77,7 @@ if (dash_key_pressed && !hasDashed && moveDir != 0) {
     hasDashed = true;
     dashCountdown = 30;
     isDashing = true;
+	psychi -= .2
 }
 
 if (onAWall) {
@@ -182,28 +193,38 @@ if (ySpd >= 0 && place_meeting(x, y + 1, oMovablePlatform)) {
 // Move Y
 y += ySpd;
 
-if (playerHealth < 0) {
-	instance_destroy()
+// Charging state
+if ((xSpd == 0 && ySpd == 0 && psychi < psychiCap && !oMovablePlatform.isBeingMoved)) {
+    psychi += 0.01;
+    if (sprite_index != sPlayerCharging) {
+        sprite_index = sPlayerCharging;
+        image_speed = 1; // Ensure the animation plays
+    }
+} else {
+    // Sprite/Animation control
+    if (abs(xSpd) > 0) {
+        if (sprite_index != walkSpr) {
+            sprite_index = walkSpr;
+            image_speed = 1; // Ensure the animation plays
+        }
+    } else if (xSpd == 0 && sprite_index != idleSpr) {
+        sprite_index = idleSpr;
+        image_speed = 1; // Ensure the animation plays
+    }
 }
-
-// Sprite/Animation control
-// Walking
-if (abs(xSpd) > 0) {
-    sprite_index = walkSpr;
-}
-
-// If not moving
-if (xSpd == 0) {
-    sprite_index = idleSpr;
-}
-
-image_angle = 0;
 
 // Dashing Sprite
 if (isDashing) {
-    sprite_index = dashSpr;
-    image_angle = dashDirection;
+    if (sprite_index != dashSpr) {
+        sprite_index = dashSpr;
+        image_angle = dashDirection;
+        image_speed = 1; // Ensure the animation plays
+    }
 }
 
 // Set collision mask
 mask_index = idleSpr;
+
+if (playerHealth < 0) {
+    instance_destroy();
+}

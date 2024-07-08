@@ -16,7 +16,7 @@ if(instance_exists(oPlayer))
 			}
 		}
 
-		if(place_meeting((x+5),y,Obj_Platform) || place_meeting((x-5),y,Obj_Platform)) {
+		if(place_meeting((x+5),y,Obj_Platform) || place_meeting((x-5),y,Obj_Platform) || place_meeting(x+5,y,oMovablePlatform) || place_meeting(x-5,y,oMovablePlatform)) {
 			if(abs(xSpd) < 10)
 			{
 				xSpd *= -5
@@ -25,7 +25,7 @@ if(instance_exists(oPlayer))
 			}
 		}
 
-		if(place_meeting(x,y+5,Obj_Platform) || place_meeting(x,y-5,Obj_Platform)) {
+		if(place_meeting(x,y+5,Obj_Platform) || place_meeting(x,y-5,Obj_Platform) || place_meeting(x,y+5,oMovablePlatform) || place_meeting(x,y-5,oMovablePlatform)) {
 			if(abs(ySpd) < 10)
 			{
 				ySpd *= -5
@@ -39,6 +39,10 @@ if(instance_exists(oPlayer))
 		        bossHealth -= 10;
 		    } else {
 		        oPlayer.playerHealth -= 1;
+				if(!audio_is_playing(snd_fire))
+				{
+					audio_play_sound(snd_fire,0,0)
+				}
 		    }
 		}
 

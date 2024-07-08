@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"HackVortexGame",
-    "path":"HackVortexGame.yyp",
+    "name":"[World] Fire",
+    "path":"folders/Worlds/[World] Fire.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,6 +1,6 @@
 xSpd = 0
 ySpd = 0
 
-bossHealth = 5000
+bossHealth = 1000
 
 bossActive = false

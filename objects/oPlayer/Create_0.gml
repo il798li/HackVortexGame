@@ -63,3 +63,4 @@ playerHealth = 100
 
 //Psychi
 psychi = 10
+psychiCap = 10

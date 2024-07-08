@@ -1,6 +1,8 @@
+if(instance_exists(oPlayer)){
 if((position_meeting(mouse_x,mouse_y,oMovablePlatform) || isBeingMoved) && oPlayer.psychi > 5)
 {
 	sprite_index = sControlledPlatform
+	image_blend = c_white
 	if(mouse_check_button(mb_left))
 	{
 		isBeingMoved = true
@@ -8,6 +10,7 @@ if((position_meeting(mouse_x,mouse_y,oMovablePlatform) || isBeingMoved) && oPlay
 	}
 } else {
 	sprite_index = Spr_Platform
+	image_blend = c_yellow
 }
 
 if(mouse_check_button_released(mb_left)){
@@ -28,7 +31,7 @@ if(isBeingMoved)
 {
 	ySpd = -sin(point_direction(x, y, mouse_x, mouse_y) * pi / 180) * oPlayer.psychi/10;
 	xSpd = cos(point_direction(x, y, mouse_x, mouse_y) * pi / 180) * oPlayer.psychi/10;
-	oPlayer.psychi -= .001
+	oPlayer.psychi -= .01
 }
 
 var _subPixel = 0.5;
@@ -83,3 +86,4 @@ if place_meeting(x + xSpd, y, oMovablePlatform) {
 
 x += xSpd
 y += ySpd
+}
