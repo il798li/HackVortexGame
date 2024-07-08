@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"HackVortexGame",
-    "path":"HackVortexGame.yyp",
+    "name":"[World] Forest",
+    "path":"folders/Worlds/[World] Forest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

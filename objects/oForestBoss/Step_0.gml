@@ -7,9 +7,9 @@ if(instance_exists(oPlayer))
 	if(bossActive) {
 		if(instance_exists(oPlayer)) {
 			if(timer <= 0) {
-				for(var i = 0; i < 20; i++) {
+				for(var i = 0; i <= 500; i+= 50) {
+					instance_create_layer(i + x - 200, y - 125, layer, oStickDown);
 				}
-				instance_create_layer(posX, posY, layer, StickDown);
 				timer = 100;
 			} else {
 				timer -= 1;

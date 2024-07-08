@@ -2,7 +2,6 @@
 // You can write your code in this editor
 if(instance_exists(oPlayer)) {
 	if(timer > 0 && !timerDone) {
-		image_angle = point_direction(oPlayer.x, oPlayer.y - 32, x, y) + 90;
 		timer--;
 		if(timer <= 0) {
 			timerDone = true;
@@ -20,8 +19,8 @@ if(instance_exists(oPlayer)) {
 		var angle_rad = degtorad(image_angle);
         xSpd = 3 * sin(angle_rad);
         ySpd = 3 * cos(angle_rad);
-        x -= xSpd;
-        y -= ySpd;
+        x += xSpd;
+        y += ySpd;
 	}
 	
 	if (place_meeting(x, y, oPlayer)) {
