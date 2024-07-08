@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"general_functions",
   "parent":{
-    "name":"Player",
-    "path":"folders/Player.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -10,8 +10,8 @@
   "name":"oMovablePlatform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Platform",
-    "path":"folders/Worlds/Platform.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

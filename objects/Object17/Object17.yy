@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oFireBoss",
+  "%Name":"Object17",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oFireBoss",
+  "name":"Object17",
   "overriddenProperties":[],
   "parent":{
     "name":"HackVortexGame",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sFireBoss",
-    "path":"sprites/sFireBoss/sFireBoss.yy",
+    "name":"Sprite42",
+    "path":"sprites/Sprite42/Sprite42.yy",
   },
   "spriteMaskId":null,
   "visible":true,
