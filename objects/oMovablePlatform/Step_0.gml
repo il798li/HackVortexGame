@@ -31,7 +31,7 @@ if(isBeingMoved)
 {
 	ySpd = -sin(point_direction(x, y, mouse_x, mouse_y) * pi / 180) * oPlayer.psychi/10;
 	xSpd = cos(point_direction(x, y, mouse_x, mouse_y) * pi / 180) * oPlayer.psychi/10;
-	oPlayer.psychi -= .01
+	oPlayer.psychi -= .002
 }
 
 var _subPixel = 0.5;

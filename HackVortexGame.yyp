@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"[World] Forest","folderPath":"folders/Worlds/[World] Forest.yy","name":"[World] Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -49,8 +50,8 @@
     {"id":{"name":"oFireBoss","path":"objects/oFireBoss/oFireBoss.yy",},},
     {"id":{"name":"oMovablePlatform","path":"objects/oMovablePlatform/oMovablePlatform.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
-    {"id":{"name":"Rm_Fire_Save","path":"rooms/Rm_Fire_Save/Rm_Fire_Save.yy",},},
     {"id":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
+    {"id":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
     {"id":{"name":"general_functions","path":"scripts/general_functions/general_functions.yy",},},
     {"id":{"name":"Script_GenerateFireIsland","path":"scripts/Script_GenerateFireIsland/Script_GenerateFireIsland.yy",},},
     {"id":{"name":"Script_SpawnCloud","path":"scripts/Script_SpawnCloud/Script_SpawnCloud.yy",},},
@@ -80,8 +81,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
     {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
-    {"roomId":{"name":"Rm_Fire_Save","path":"rooms/Rm_Fire_Save/Rm_Fire_Save.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

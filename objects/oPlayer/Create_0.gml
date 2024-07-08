@@ -30,7 +30,7 @@ controlsSetup()
 
 //Jumping
 	grav = .275;
-	termVel = 5;
+	termVel = 7;
 	onGround = true
 	jspd = -3.15;
 	jumpMax = 2
