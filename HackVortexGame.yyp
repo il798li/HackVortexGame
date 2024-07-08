@@ -1,3 +1,4 @@
+@ -1,134 +1,130 @@
 {
   "$GMProject":"",
   "%Name":"HackVortexGame",
@@ -10,6 +11,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"NPC's","folderPath":"folders/NPC's.yy","name":"NPC's","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Player","folderPath":"folders/Player.yy","name":"Player","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -52,6 +54,13 @@
     {"id":{"name":"Obj_Sky","path":"objects/Obj_Sky/Obj_Sky.yy",},},
     {"id":{"name":"oFireBoss","path":"objects/oFireBoss/oFireBoss.yy",},},
     {"id":{"name":"oForestBoss","path":"objects/oForestBoss/oForestBoss.yy",},},
+    {"id":{"name":"oForestBlob1","path":"objects/oForestBlob1/oForestBlob1.yy",},},
+    {"id":{"name":"oForestBlob2","path":"objects/oForestBlob2/oForestBlob2.yy",},},
+    {"id":{"name":"oForestBlob3","path":"objects/oForestBlob3/oForestBlob3.yy",},},
+    {"id":{"name":"oForestBlob4","path":"objects/oForestBlob4/oForestBlob4.yy",},},
+    {"id":{"name":"oForestBlob5","path":"objects/oForestBlob5/oForestBlob5.yy",},},
+    {"id":{"name":"oForestBlob6","path":"objects/oForestBlob6/oForestBlob6.yy",},},
+    {"id":{"name":"oForestPriest","path":"objects/oForestPriest/oForestPriest.yy",},},
     {"id":{"name":"oIceBoss","path":"objects/oIceBoss/oIceBoss.yy",},},
     {"id":{"name":"oMovablePlatform","path":"objects/oMovablePlatform/oMovablePlatform.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -73,7 +82,9 @@
     {"id":{"name":"sControlledPlatform","path":"sprites/sControlledPlatform/sControlledPlatform.yy",},},
     {"id":{"name":"sDash","path":"sprites/sDash/sDash.yy",},},
     {"id":{"name":"sFireBoss","path":"sprites/sFireBoss/sFireBoss.yy",},},
+    {"id":{"name":"sForestPriest","path":"sprites/sForestPriest/sForestPriest.yy",},},
     {"id":{"name":"sIdle","path":"sprites/sIdle/sIdle.yy",},},
+    {"id":{"name":"sLeaves","path":"sprites/sLeaves/sLeaves.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sPlayerCharging","path":"sprites/sPlayerCharging/sPlayerCharging.yy",},},
     {"id":{"name":"Spr_AnimatedMagma","path":"sprites/Spr_AnimatedMagma/Spr_AnimatedMagma.yy",},},
@@ -126,6 +137,7 @@
     {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
     {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
     {"roomId":{"name":"DevRoom","path":"rooms/DevRoom/DevRoom.yy",},},
+    {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
