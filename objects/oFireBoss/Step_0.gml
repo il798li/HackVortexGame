@@ -5,6 +5,11 @@ if(instance_exists(oPlayer))
 		bossActive = true	
 	}
 	if(bossActive) {
+		if(!audio_is_playing(fireBoss))
+				{
+					audio_pause_all();
+					audio_play_sound(fireBoss,0,0)
+				}
 		xSpd *= 0.8;
 		ySpd *= 0.8;
 
@@ -47,6 +52,8 @@ if(instance_exists(oPlayer))
 		}
 
 		if (bossHealth < 0) {
+			audio_pause_sound(fireBoss);
+			audio_play_sound(FireWorld, 0, 0);
 		    instance_destroy();  // Destroys the current instance of the boss
 		}
 		// Y Collisions

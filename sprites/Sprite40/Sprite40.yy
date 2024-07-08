@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ice",
-    "path":"folders/Worlds/[World] Water/Ice.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

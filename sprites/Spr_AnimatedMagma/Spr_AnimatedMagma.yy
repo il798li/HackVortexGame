@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Magma",
-    "path":"folders/Worlds/[World] Fire/Magma.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

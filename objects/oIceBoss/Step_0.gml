@@ -5,6 +5,11 @@ if(instance_exists(oPlayer))
 		bossActive = true;
 	}
 	if(bossActive) {
+		if(!audio_is_playing(IceBoss))
+				{
+					audio_pause_all();
+					audio_play_sound(IceBoss,0,0)
+				}
 		if(instance_exists(oPlayer)) {
 			if(timer <= 0) {
 				posX = x + random_range(0, 500) - 200;
@@ -14,7 +19,7 @@ if(instance_exists(oPlayer))
 					posY = y + random_range(0, 500) - 200;
 				}
 				instance_create_layer(posX, posY, layer, Stick);
-				timer = 100;
+				timer = 70;
 			} else {
 				timer -= 1;
 			}
@@ -33,6 +38,8 @@ if(instance_exists(oPlayer))
 		}
 
 		if (bossHealth < 0) {
+			audio_pause_sound(IceBoss);
+			audio_play_sound(IceWorld, 0, 0);
 		    instance_destroy();  // Destroys the current instance of the boss
 		}
 	}

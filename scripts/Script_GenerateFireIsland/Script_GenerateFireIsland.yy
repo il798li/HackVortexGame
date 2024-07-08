@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Script_GenerateFireIsland",
   "parent":{
-    "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

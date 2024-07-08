@@ -8,8 +8,8 @@
   "name":"Obj_Lava",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lava",
-    "path":"folders/Worlds/[World] Fire/Lava.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

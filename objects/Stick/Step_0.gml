@@ -18,8 +18,8 @@ if(instance_exists(oPlayer)) {
 	
 	if(shoot) {
 		var angle_rad = degtorad(image_angle);
-        xSpd = 3 * sin(angle_rad);
-        ySpd = 3 * cos(angle_rad);
+        xSpd = 5 * sin(angle_rad);
+        ySpd = 5 * cos(angle_rad);
         x -= xSpd;
         y -= ySpd;
 	}

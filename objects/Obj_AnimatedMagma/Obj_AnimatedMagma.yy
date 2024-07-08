@@ -8,8 +8,8 @@
   "name":"Obj_AnimatedMagma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Magma",
-    "path":"folders/Worlds/[World] Fire/Magma.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

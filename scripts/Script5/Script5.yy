@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Script5",
   "parent":{
-    "name":"Magma",
-    "path":"folders/Worlds/[World] Fire/Magma.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

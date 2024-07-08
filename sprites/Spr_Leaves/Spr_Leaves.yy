@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"[World] Forest",
-    "path":"folders/Worlds/[World] Forest.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

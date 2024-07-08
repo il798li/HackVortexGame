@@ -75,8 +75,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Water",
-    "path":"folders/Worlds/[World] Water/Water.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

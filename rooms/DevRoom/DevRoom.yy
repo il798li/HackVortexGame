@@ -23,7 +23,6 @@
       ],"layers":[],"name":"Instances_2","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_48CB8D35","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_48CB8D35","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},"x":288.0,"y":512.0,},
-        {"$GMRSpriteGraphic":"","%Name":"graphic_6417ACB0","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6417ACB0","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},"x":1376.0,"y":736.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_2D512B08","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2D512B08","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},"x":288.0,"y":480.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_3256F6EA","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3256F6EA","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Sprite31","path":"sprites/Sprite31/Sprite31.yy",},"x":288.0,"y":448.0,},
         {"$GMRSpriteGraphic":"","%Name":"graphic_11120AA7","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_11120AA7","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":1.0,"spriteId":{"name":"Sprite26","path":"sprites/Sprite26/Sprite26.yy",},"x":320.0,"y":448.0,},
@@ -55,8 +54,8 @@
   ],
   "name":"DevRoom",
   "parent":{
-    "name":"[World] Water",
-    "path":"folders/Worlds/[World] Water.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "parentRoom":null,
   "physicsSettings":{

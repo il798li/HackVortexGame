@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"[World] Water",
-    "path":"folders/Worlds/[World] Water.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

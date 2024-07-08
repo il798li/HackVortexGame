@@ -8,8 +8,8 @@
   "name":"Obj_MagmaSpawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "parentObjectId":null,
   "persistent":false,

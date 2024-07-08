@@ -40,8 +40,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Lava",
-    "path":"folders/Worlds/[World] Fire/Lava.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

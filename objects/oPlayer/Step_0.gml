@@ -1,3 +1,13 @@
+if(room == Rm_Fire && !audio_is_playing(FireWorld)) {
+	audio_play_sound(FireWorld, 0, 0);
+}
+if(room == Rm_Forest && !audio_is_playing(ForestWorld)) {
+	audio_play_sound(ForestWorld, 0, 0);
+}
+if(room == Rm_Water && !audio_is_playing(IceWorld)) {
+	audio_play_sound(IceWorld, 0, 0);
+}
+
 // Inputs
 getControls();
 
