@@ -52,6 +52,7 @@
     {"id":{"name":"Obj_Sky","path":"objects/Obj_Sky/Obj_Sky.yy",},},
     {"id":{"name":"Object15","path":"objects/Object15/Object15.yy",},},
     {"id":{"name":"oFireBoss","path":"objects/oFireBoss/oFireBoss.yy",},},
+    {"id":{"name":"oForestBoss","path":"objects/oForestBoss/oForestBoss.yy",},},
     {"id":{"name":"oIceBoss","path":"objects/oIceBoss/oIceBoss.yy",},},
     {"id":{"name":"oMovablePlatform","path":"objects/oMovablePlatform/oMovablePlatform.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -106,15 +107,25 @@
     {"id":{"name":"Sprite40","path":"sprites/Sprite40/Sprite40.yy",},},
     {"id":{"name":"Sprite41","path":"sprites/Sprite41/Sprite41.yy",},},
     {"id":{"name":"Sprite42","path":"sprites/Sprite42/Sprite42.yy",},},
+    {"id":{"name":"Sprite43","path":"sprites/Sprite43/Sprite43.yy",},},
+    {"id":{"name":"StickDown","path":"sprites/StickDown/StickDown.yy",},},
+    {"id":{"name":"StickLeft","path":"sprites/StickLeft/StickLeft.yy",},},
+    {"id":{"name":"StickRight","path":"sprites/StickRight/StickRight.yy",},},
     {"id":{"name":"sWalkLeft","path":"sprites/sWalkLeft/sWalkLeft.yy",},},
     {"id":{"name":"sWalkRight","path":"sprites/sWalkRight/sWalkRight.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< Updated upstream
     {"roomId":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
     {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
     {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
+=======
+    {"roomId":{"name":"Rm_Fire","path":"rooms/Rm_Fire/Rm_Fire.yy",},},
+    {"roomId":{"name":"Rm_Water","path":"rooms/Rm_Water/Rm_Water.yy",},},
+    {"roomId":{"name":"Rm_Forest","path":"rooms/Rm_Forest/Rm_Forest.yy",},},
+>>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
