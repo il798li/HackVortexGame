@@ -49,8 +49,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"Platform",
-    "path":"folders/Worlds/Platform.yy",
+    "name":"HackVortexGame",
+    "path":"HackVortexGame.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
