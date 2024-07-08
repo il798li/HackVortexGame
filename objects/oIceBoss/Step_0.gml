@@ -14,7 +14,7 @@ if(instance_exists(oPlayer))
 					posY = y + random_range(0, 500) - 200;
 				}
 				instance_create_layer(posX, posY, layer, Stick);
-				timer = 1;
+				timer = 100;
 			} else {
 				timer -= 1;
 			}
