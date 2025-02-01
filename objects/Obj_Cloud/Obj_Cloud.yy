@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Cloud",
-    "path":"folders/Worlds/Sky/Cloud.yy",
+    "path":"folders/Rooms/Worlds/Sky/Cloud.yy",
   },
   "parentObjectId":null,
   "persistent":false,

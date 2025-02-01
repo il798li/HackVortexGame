@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Leaves",
-    "path":"folders/Worlds/Leaves.yy",
+    "path":"folders/Rooms/Worlds/Leaves.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Ladder",
-    "path":"folders/Worlds/Ladder.yy",
+    "path":"folders/Rooms/Worlds/Ladder.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

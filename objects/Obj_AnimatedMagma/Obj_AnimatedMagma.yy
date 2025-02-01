@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Magma",
-    "path":"folders/Worlds/[World] Fire/Magma.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire/Magma.yy",
   },
   "parentObjectId":null,
   "persistent":false,

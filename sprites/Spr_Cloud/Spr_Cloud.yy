@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Cloud",
-    "path":"folders/Worlds/Sky/Cloud.yy",
+    "path":"folders/Rooms/Worlds/Sky/Cloud.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

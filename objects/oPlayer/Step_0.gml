@@ -239,5 +239,6 @@ if (isDashing) {
 mask_index = idleSpr;
 
 if (playerHealth < 0) {
+	room_goto(rm_mainMenu)
     instance_destroy();
 }

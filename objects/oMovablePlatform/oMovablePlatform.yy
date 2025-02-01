@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Platform",
-    "path":"folders/Worlds/Platform.yy",
+    "path":"folders/Rooms/Worlds/Platform.yy",
   },
   "parentObjectId":null,
   "persistent":false,

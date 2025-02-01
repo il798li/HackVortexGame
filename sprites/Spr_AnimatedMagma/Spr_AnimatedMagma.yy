@@ -29,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Magma",
-    "path":"folders/Worlds/[World] Fire/Magma.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire/Magma.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

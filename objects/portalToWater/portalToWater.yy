@@ -8,8 +8,8 @@
   "name":"portalToWater",
   "overriddenProperties":[],
   "parent":{
-    "name":"HackVortexProject",
-    "path":"HackVortexProject.yyp",
+    "name":"Portals",
+    "path":"folders/Portals.yy",
   },
   "parentObjectId":null,
   "persistent":false,

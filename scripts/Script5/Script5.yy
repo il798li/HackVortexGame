@@ -6,7 +6,7 @@
   "name":"Script5",
   "parent":{
     "name":"Magma",
-    "path":"folders/Worlds/[World] Fire/Magma.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire/Magma.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

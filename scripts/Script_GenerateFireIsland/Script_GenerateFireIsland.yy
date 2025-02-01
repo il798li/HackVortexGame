@@ -6,7 +6,7 @@
   "name":"Script_GenerateFireIsland",
   "parent":{
     "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

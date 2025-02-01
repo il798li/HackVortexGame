@@ -76,7 +76,7 @@
   "origin":0,
   "parent":{
     "name":"Water",
-    "path":"folders/Worlds/[World] Water/Water.yy",
+    "path":"folders/Rooms/Worlds/[World] Water/Water.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

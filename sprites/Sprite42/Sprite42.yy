@@ -45,7 +45,7 @@
   "origin":9,
   "parent":{
     "name":"[World] Water",
-    "path":"folders/Worlds/[World] Water.yy",
+    "path":"folders/Rooms/Worlds/[World] Water.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

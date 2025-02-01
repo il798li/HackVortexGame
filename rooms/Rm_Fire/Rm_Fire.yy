@@ -4794,7 +4794,7 @@
   "name":"Rm_Fire",
   "parent":{
     "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

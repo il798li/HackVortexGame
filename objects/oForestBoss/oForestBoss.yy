@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"[World] Forest",
-    "path":"folders/Worlds/[World] Forest.yy",
+    "path":"folders/Rooms/Worlds/[World] Forest.yy",
   },
   "parentObjectId":null,
   "persistent":false,

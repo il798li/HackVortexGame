@@ -31,7 +31,7 @@
   "origin":9,
   "parent":{
     "name":"[World] Fire",
-    "path":"folders/Worlds/[World] Fire.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

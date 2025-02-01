@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"HackVortexProject",
-    "path":"HackVortexProject.yyp",
+    "name":"NPC's",
+    "path":"folders/NPC's.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

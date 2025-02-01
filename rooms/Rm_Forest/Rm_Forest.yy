@@ -99,7 +99,7 @@
   "name":"Rm_Forest",
   "parent":{
     "name":"[World] Forest",
-    "path":"folders/Worlds/[World] Forest.yy",
+    "path":"folders/Rooms/Worlds/[World] Forest.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

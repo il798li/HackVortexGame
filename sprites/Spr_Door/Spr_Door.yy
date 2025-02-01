@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"Door",
-    "path":"folders/Worlds/Door.yy",
+    "path":"folders/Rooms/Worlds/Door.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

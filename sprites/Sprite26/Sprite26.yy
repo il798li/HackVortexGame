@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Ice",
-    "path":"folders/Worlds/[World] Water/Ice.yy",
+    "path":"folders/Rooms/Worlds/[World] Water/Ice.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"HackVortexProject",
-    "path":"HackVortexProject.yyp",
+    "name":"Portals",
+    "path":"folders/Portals.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

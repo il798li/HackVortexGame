@@ -45,7 +45,7 @@
   "origin":0,
   "parent":{
     "name":"Platform",
-    "path":"folders/Worlds/Platform.yy",
+    "path":"folders/Rooms/Worlds/Platform.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

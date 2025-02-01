@@ -41,7 +41,7 @@
   "origin":0,
   "parent":{
     "name":"Lava",
-    "path":"folders/Worlds/[World] Fire/Lava.yy",
+    "path":"folders/Rooms/Worlds/[World] Fire/Lava.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

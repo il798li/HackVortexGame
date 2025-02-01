@@ -6,7 +6,7 @@
   "name":"Script_SpawnCloud",
   "parent":{
     "name":"Cloud",
-    "path":"folders/Worlds/Sky/Cloud.yy",
+    "path":"folders/Rooms/Worlds/Sky/Cloud.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

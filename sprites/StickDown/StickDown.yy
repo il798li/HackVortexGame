@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"[World] Forest",
-    "path":"folders/Worlds/[World] Forest.yy",
+    "path":"folders/Rooms/Worlds/[World] Forest.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
